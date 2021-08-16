@@ -10,7 +10,7 @@ defmodule BlockScoutWeb.LayoutView do
   @issue_url "https://github.com/blockscout/blockscout/issues/new"
   @default_other_networks [
     %{
-      title: "POA",
+      title: "XOS",
       url: "https://blockscout.com/poa/core"
     },
     %{
@@ -54,7 +54,7 @@ defmodule BlockScoutWeb.LayoutView do
   end
 
   def network_title do
-    Keyword.get(application_config(), :network) || "POA"
+    Keyword.get(application_config(), :network) || "XOS"
   end
 
   defp application_config do
