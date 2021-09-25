@@ -474,7 +474,7 @@ defmodule BlockScoutWeb.TransactionView do
   end
 
   @doc """
-  Converts a transaction's Wei value to Ether and returns a formatted display value.
+  Converts a transaction's Wei value to God and returns a formatted display value.
 
   ## Options
 
